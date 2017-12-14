@@ -10,9 +10,9 @@ h2{
   font-family:"Open Sans Condensed", sans-serif;
   }
 
-p{
+body{
   font-size: 15px;
-  font-family: "Crimson Text", sans-serif;
+  font-family: "Crimson Text", serif;
   text-align: justify;
 }
 
