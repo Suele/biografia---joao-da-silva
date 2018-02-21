@@ -13,7 +13,7 @@ h2{
   font-size: 30px;
 }
 
-main h1{
+.titulo-principal{
   text-align: center;
   background-color: #6C7B8B;
   color: #FFF;
@@ -34,7 +34,7 @@ footer{
   padding: 15px;
 }
 
-aside{
+.menu-navegacao{
   background-color: #6C7B8B;
   color: #F2FFFC;
   padding: 20px;
@@ -50,23 +50,35 @@ blockquote{
   text-align: right;
 }
 
-aside a {
+.link-navegacao li a {
   color: inherit;
   font-family: "Open Sans Condensed", sans-serif;
   text-decoration: none;
   color: #F2FFFC;
 }
 
-.icones-sociais li{
+.icones-sociais img {
   display: inline-block;
 }
 
-main div{
+.principal{
   width: 880px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.mais-inf{
+  padding-bottom: 10px;
+  margin: 10px;
+  text-align: center;
+  display: inline-table;
+}
+
+.post-inf{
+  padding-bottom: 15px;
+  margin: 5px;
 }
 
 main footer{
