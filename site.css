@@ -56,6 +56,11 @@ aside a {
   text-decoration: none;
   color: #F2FFFC;
 }
+
+.icones-sociais li{
+  display: inline-block;
+}
+
 main div{
   width: 880px;
   margin-left: auto;
