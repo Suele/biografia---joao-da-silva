@@ -1,133 +1,150 @@
-body{
-  font-family: "Crimson Text", serif;
-  background-color: #F2FFFC;
-  font-size: 120%;
-  line-height: 1.5;
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
 }
 
-h1, h2{
-  font-family: "Open Sans Condensed",sans-serif;
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
-h2{
-  font-size: 30px;
+.titulo-principal {
+	text-align: center;
+	background-color: #851944;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid black;
+	font-size: 60px;
+	text-transform: uppercase;
 }
 
-.titulo-principal{
-  text-align: center;
-  background-color: #6C7B8B;
-  color: #FFF;
-  padding: 23px;
-  margin: 0px;
-  border-bottom: 10px solid black;
-  font-size: 50px;
-  text-transform: uppercase;
+p {
+	text-align: justify;
+	margin: 20px 0;
 }
 
-p{
-  text-align: justify;
-  margin: 20px;
+.citacao-bio {
+	background-color: #D9E5E3;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	box-sizing: border-box;
+	margin: 20px 40px;
 }
 
-footer{
-  background-color: #000000;
-  color: #F2FFFC;
-  padding: 15px;
+.navegacao-site {
+	text-align: center;
+	background-color: #3C1D3D;
+	color: #F2FFFC;
 }
 
-.menu-navegacao{
-  background-color: #6C7B8B;
-  color: #F2FFFC;
-  padding: 20px;
+.rodape-pagina {
+	background-color: #000;
+	color: #F2FFFC;
+	clear: both;
 }
 
-blockquote{
-  background-color: #D9E5E3;
-  padding: 10px;
-  width: 250px;
-  border: 4px #6C7B8B solid;
-  box-sizing: border-box;
-  margin: 20px 40px;
-  text-align: right;
+main a {
+	color: #851944;
 }
 
-.link-navegacao li a {
-  color: inherit;
-  font-family: "Open Sans Condensed", sans-serif;
-  text-decoration: none;
-  color: #F2FFFC;
-  text-transform: lowercase;
+.navegacao-site a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
 }
 
-.icones-sociais li {
-  display: inline-block;
-
+.citacao-bio, .navegacao-site, .rodape-pagina {
+    padding: 20px;
 }
 
-.icones-sociais a{
-  width: 40px;
-  height: 40px;
-  font-size: 0;
-  display: block;
+.container {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
 }
 
-.github{
-  background-image: url(github.png);
+.navegacao-site h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
 }
 
-.linkedin{
-  background-image: url(linkedin.png);
+strong {
+	font-weight: bold;
 }
 
-.twitter{
-  background-image: url(twitter.png);
+em {
+	font-style: italic;
 }
 
-.principal{
-  width: 880px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
+.subtitulo-texto {
+	font-size: 30px;
+	clear: both;
 }
 
-.mais-inf{
-  padding-bottom: 10px;
-  margin: 10px;
-  text-align: center;
-  display: inline-table;
+.icones-redes-sociais li {
+	display: inline-block;
 }
 
-.post-inf{
-  padding-bottom: 15px;
-  margin: 5px;
+.artigo {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
 }
 
-main footer{
-  background-color: #E0EEEE;
-  color: #838B8B;
+.leia-mais {
+	padding: 8px;
+	margin: 16px;
+	display: block;
+	font-size: 24px;
+	text-align: center;
+	background-color: #E6E7E8;
 }
 
-main a{
-  text-decoration: none;
-  color: #6E7B8B;
+nav a {
+	text-transform: lowercase;
 }
 
-aside h1{
-  font-size: 30px;
-  margin-bottom: 25px;
+.icones-redes-sociais a {
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-indent: -99999px;
 }
 
-strong{
-  font-weight: bold;
+.github {
+	background-image: url(github.png);
 }
 
-em{
-  font-style: italic;
+.twitter {
+	background-image: url(twitter.png);
 }
 
-blockquote cite{
-  font-style: italic;
-  text-align: left;
-  padding: 10px;
+.linkedin {
+	background-image: url(linkedin.png);
+}
+
+.fiat {
+	float: right;
+}
+
+.petrobras {
+	float: left;
+}
+
+main {
+	float: left;
+	width: 85%;
+}
+
+.minha-foto, .navegacao-site {
+	float: right;
+	width: 15%;
+	box-sizing: border-box;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+}
+
+cite {
+	font-style: italic;
+	float: right;
 }
